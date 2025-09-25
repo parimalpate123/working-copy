@@ -1,0 +1,132 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="Enhanced APD Flow" id="c-YyVop82j-uQKcuWPZY">
+    <mxGraphModel dx="1426" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="N7Iiy4Lbc_6CvsihMuve-1" value="Enhanced APD POC - System Flow Architecture" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=#2D3748;" vertex="1" parent="1">
+          <mxGeometry x="400" y="30" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N7Iiy4Lbc_6CvsihMuve-2" value="Flow 1: Create New Product" style="text;html=1;strokeColor=none;fillColor=#667eea;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=16;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="50" y="80" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="N7Iiy4Lbc_6CvsihMuve-3" value="1. Excel Upload&lt;br&gt;&lt;br&gt;Business Analyst uploads&lt;br&gt;product requirements in&lt;br&gt;structured Excel format" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1f5fe;strokeColor=#0277bd;fontColor=#01579b;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="80" y="150" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N7Iiy4Lbc_6CvsihMuve-4" value="2. Hybrid Validation&lt;br&gt;&lt;br&gt;Custom + AI validation&lt;br&gt;with human review gate&lt;br&gt;for complex cases" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#7b1fa2;fontColor=#4a148c;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="280" y="150" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N7Iiy4Lbc_6CvsihMuve-5" value="3. Requirements Storage&lt;br&gt;&lt;br&gt;Store in new database&lt;br&gt;with version control&lt;br&gt;and audit trail" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e8;strokeColor=#2e7d32;fontColor=#1b5e20;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="480" y="150" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N7Iiy4Lbc_6CvsihMuve-6" value="4. Bedrock Processing&lt;br&gt;&lt;br&gt;AI analyzes requirements&lt;br&gt;with ProductHub context&lt;br&gt;and generates output" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#ef6c00;fontColor=#e65100;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="680" y="150" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N7Iiy4Lbc_6CvsihMuve-7" value="5. Human Approval&lt;br&gt;&lt;br&gt;Review AI output,&lt;br&gt;approve or request&lt;br&gt;modifications" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fce4ec;strokeColor=#ad1457;fontColor=#880e4f;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="880" y="150" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N7Iiy4Lbc_6CvsihMuve-8" value="6. APD Upload&lt;br&gt;&lt;br&gt;Upload to Guidewire&lt;br&gt;via existing APD APIs&lt;br&gt;with validation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e0f2f1;strokeColor=#00695c;fontColor=#004d40;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="280" y="280" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N7Iiy4Lbc_6CvsihMuve-9" value="7. Build &amp; Deploy&lt;br&gt;&lt;br&gt;Leverage existing&lt;br&gt;Guidewire build&lt;br&gt;process" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8eaf6;strokeColor=#3f51b5;fontColor=#1a237e;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="480" y="280" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N7Iiy4Lbc_6CvsihMuve-10" value="8. Template Storage&lt;br&gt;&lt;br&gt;Store all artifacts&lt;br&gt;for reuse and&lt;br&gt;audit purposes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f8e9;strokeColor=#689f38;fontColor=#33691e;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="680" y="280" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N7Iiy4Lbc_6CvsihMuve-11" value="Flow 2: Update Product with Rules" style="text;html=1;strokeColor=none;fillColor=#764ba2;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=16;fontStyle=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="50" y="420" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="N7Iiy4Lbc_6CvsihMuve-12" value="1. Rule Request&lt;br&gt;&lt;br&gt;Request to add/update&lt;br&gt;product rules via&lt;br&gt;Excel or API" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1f5fe;strokeColor=#0277bd;fontColor=#01579b;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="80" y="490" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N7Iiy4Lbc_6CvsihMuve-13" value="2. Context Assembly&lt;br&gt;&lt;br&gt;Retrieve from ProductHub&lt;br&gt;+ Template DB +&lt;br&gt;existing Gosu code" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e0f2f1;strokeColor=#00695c;fontColor=#004d40;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="280" y="490" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N7Iiy4Lbc_6CvsihMuve-14" value="3. Bedrock Analysis&lt;br&gt;&lt;br&gt;AI analyzes complexity&lt;br&gt;and determines&lt;br&gt;processing path" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#ef6c00;fontColor=#e65100;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="480" y="490" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N7Iiy4Lbc_6CvsihMuve-15" value="4. Decision Gate&lt;br&gt;&lt;br&gt;Simple APD Rule vs&lt;br&gt;Complex Gosu Code&lt;br&gt;generation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff8e1;strokeColor=#f57c00;fontColor=#ef6c00;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="680" y="490" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N7Iiy4Lbc_6CvsihMuve-16" value="Simple Rules Path&lt;br&gt;&lt;br&gt;â€¢ Generate APD-compatible rules&lt;br&gt;â€¢ Validate against business logic&lt;br&gt;â€¢ Direct upload via APD API&lt;br&gt;â€¢ Immediate deployment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e8;strokeColor=#2e7d32;fontColor=#1b5e20;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="580" y="620" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="N7Iiy4Lbc_6CvsihMuve-17" value="Complex Rules Path&lt;br&gt;&lt;br&gt;â€¢ Generate Gosu code&lt;br&gt;â€¢ Create BitBucket branch&lt;br&gt;â€¢ Human code review&lt;br&gt;â€¢ Upload via APD API&lt;br&gt;â€¢ Standard build process" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffebee;strokeColor=#c62828;fontColor=#b71c1c;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="780" y="620" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="N7Iiy4Lbc_6CvsihMuve-18" value="5. Human Approval&lt;br&gt;&lt;br&gt;Review generated&lt;br&gt;rules/code before&lt;br&gt;deployment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fce4ec;strokeColor=#ad1457;fontColor=#880e4f;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="680" y="760" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N7Iiy4Lbc_6CvsihMuve-19" value="6. Deployment&lt;br&gt;&lt;br&gt;Deploy to target&lt;br&gt;environment with&lt;br&gt;monitoring" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e0f2f1;strokeColor=#00695c;fontColor=#004d40;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="480" y="760" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N7Iiy4Lbc_6CvsihMuve-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#667eea;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="N7Iiy4Lbc_6CvsihMuve-3" target="N7Iiy4Lbc_6CvsihMuve-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N7Iiy4Lbc_6CvsihMuve-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#667eea;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="N7Iiy4Lbc_6CvsihMuve-4" target="N7Iiy4Lbc_6CvsihMuve-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N7Iiy4Lbc_6CvsihMuve-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#667eea;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="N7Iiy4Lbc_6CvsihMuve-5" target="N7Iiy4Lbc_6CvsihMuve-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N7Iiy4Lbc_6CvsihMuve-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#667eea;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="N7Iiy4Lbc_6CvsihMuve-6" target="N7Iiy4Lbc_6CvsihMuve-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N7Iiy4Lbc_6CvsihMuve-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#667eea;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="N7Iiy4Lbc_6CvsihMuve-7" target="N7Iiy4Lbc_6CvsihMuve-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="950" y="250" />
+              <mxPoint x="350" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N7Iiy4Lbc_6CvsihMuve-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#667eea;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="N7Iiy4Lbc_6CvsihMuve-8" target="N7Iiy4Lbc_6CvsihMuve-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N7Iiy4Lbc_6CvsihMuve-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#667eea;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="N7Iiy4Lbc_6CvsihMuve-9" target="N7Iiy4Lbc_6CvsihMuve-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N7Iiy4Lbc_6CvsihMuve-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#764ba2;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="N7Iiy4Lbc_6CvsihMuve-12" target="N7Iiy4Lbc_6CvsihMuve-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N7Iiy4Lbc_6CvsihMuve-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#764ba2;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="N7Iiy4Lbc_6CvsihMuve-13" target="N7Iiy4Lbc_6CvsihMuve-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N7Iiy4Lbc_6CvsihMuve-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#764ba2;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="N7Iiy4Lbc_6CvsihMuve-14" target="N7Iiy4Lbc_6CvsihMuve-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N7Iiy4Lbc_6CvsihMuve-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#2e7d32;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="N7Iiy4Lbc_6CvsihMuve-15" target="N7Iiy4Lbc_6CvsihMuve-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N7Iiy4Lbc_6CvsihMuve-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#c62828;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="N7Iiy4Lbc_6CvsihMuve-15" target="N7Iiy4Lbc_6CvsihMuve-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N7Iiy4Lbc_6CvsihMuve-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#764ba2;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="N7Iiy4Lbc_6CvsihMuve-16" target="N7Iiy4Lbc_6CvsihMuve-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N7Iiy4Lbc_6CvsihMuve-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#764ba2;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="N7Iiy4Lbc_6CvsihMuve-17" target="N7Iiy4Lbc_6CvsihMuve-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N7Iiy4Lbc_6CvsihMuve-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#764ba2;strokeWidth=2;endArrow=classic;" edge="1" parent="1" source="N7Iiy4Lbc_6CvsihMuve-18" target="N7Iiy4Lbc_6CvsihMuve-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N7Iiy4Lbc_6CvsihMuve-35" value="Process Legend" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#2D3748;" vertex="1" parent="1">
+          <mxGeometry x="80" y="880" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="N7Iiy4Lbc_6CvsihMuve-36" value="í ½í´· Standard Process" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#01579b;" vertex="1" parent="1">
+          <mxGeometry x="80" y="910" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="N7Iiy4Lbc_6CvsihMuve-37" value="í ¾í´– AI Process" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#e65100;" vertex="1" parent="1">
+          <mxGeometry x="250" y="910" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="N7Iiy4Lbc_6CvsihMuve-38" value="í ½í±¤ Human Gate" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#880e4f;" vertex="1" parent="1">
+          <mxGeometry x="420" y="910" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="N7Iiy4Lbc_6CvsihMuve-39" value="í ½í´— Integration" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#004d40;" vertex="1" parent="1">
+          <mxGeometry x="590" y="910" width="150" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
